@@ -1,0 +1,94 @@
+.mlat {
+    border-radius: 5px 0px 0px 10px;
+    transition: ease-in-out;
+    transition-duration: 0.7s;
+    top: 0;
+    position: fixed;
+    height: 100vh;
+    width: 25%;
+    margin-left: 75%;
+    background-color: #212121;
+  
+    @media(max-width:750px){
+        width: 35%;
+        margin-left: 65%;
+    }
+
+    @media(max-width:550px){
+        width: 45%;
+        margin-left: 55%;
+    }
+
+     @media(max-width:360px){
+        width: 50%;
+        margin-left: 50%;
+        height: 120vh;
+    }
+  
+  }
+  
+
+  .aparecer {
+    position: fixed;
+    border-left: 4px solid white;
+    border-radius: 0px;
+    margin-left: 100%;
+  }
+  
+  .mtm{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 15%;
+    background-color: #444444;
+}
+
+.tmla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    font-family: jura;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid white;
+
+    @media(min-width:1500px){
+        font-size: 50px;
+    }
+
+    @media(max-width:968px){
+        font-size: larger;
+    }
+
+    @media(max-width:360px){
+        font-size: medium;
+    }
+
+}
+
+.vol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.clo{
+    height: 55px;
+
+     @media(min-width:1500px){
+        height: 80px;
+    }
+
+    @media(max-width:680px){
+        height: 40px;
+    }
+}
+
+.t{
+    border-left: orange 2.5px solid;
+    padding-left: 5px;
+}

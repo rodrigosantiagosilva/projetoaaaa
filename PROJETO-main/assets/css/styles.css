@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+.mlat {
+  border-radius: 5px 0px 0px 10px;
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+  top: 0;
+  position: fixed;
+  height: 100vh;
+  width: 25%;
+  margin-left: 75%;
+  background-color: #212121;
+}
+@media (max-width: 750px) {
+  .mlat {
+    width: 35%;
+    margin-left: 65%;
+  }
+}
+@media (max-width: 550px) {
+  .mlat {
+    width: 45%;
+    margin-left: 55%;
+  }
+}
+@media (max-width: 360px) {
+  .mlat {
+    width: 50%;
+    margin-left: 50%;
+    height: 120vh;
+  }
+}
+
+.aparecer {
+  position: fixed;
+  border-left: 4px solid white;
+  border-radius: 0px;
+  margin-left: 100%;
+}
+
+.mtm {
+  display: flex;
+  width: 100%;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  height: 15%;
+  background-color: #444444;
+}
+
+.tmla {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: x-large;
+  font-family: jura;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+@media (min-width: 1500px) {
+  .tmla {
+    font-size: 50px;
+  }
+}
+@media (max-width: 968px) {
+  .tmla {
+    font-size: larger;
+  }
+}
+@media (max-width: 360px) {
+  .tmla {
+    font-size: medium;
+  }
+}
+
+.vol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.clo {
+  height: 55px;
+}
+@media (min-width: 1500px) {
+  .clo {
+    height: 80px;
+  }
+}
+@media (max-width: 680px) {
+  .clo {
+    height: 40px;
+  }
+}
+
+.t {
+  border-left: orange 2.5px solid;
+  padding-left: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+  font-style: none;
+}
+
+body {
+  margin: 0px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #D9D9D9;
+  height: 100px;
+}
+
+.pesquisa {
+  display: flex;
+  border-radius: 15px;
+  height: 35px;
+  margin-left: 15px;
+  width: 50%;
+  background-color: white;
+}
+@media (min-width: 1550px) {
+  .pesquisa {
+    height: 60px;
+  }
+}
+@media (max-width: 480px) {
+  .pesquisa {
+    width: 90%;
+  }
+}
+
+.input {
+  outline: none;
+  background: none;
+  border: none;
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+  font-size: large;
+}
+@media (min-width: 1550px) {
+  .input {
+    font-size: x-large;
+  }
+}
+
+.hamb {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 13px;
+  width: 50%;
+  height: 65px;
+}
+
+.ihamb {
+  height: 100px;
+}
+@media (min-width: 1550px) {
+  .ihamb {
+    height: 150px;
+    padding: 15px 0px 10px 15px;
+  }
+}
+
+.pesq {
+  margin-left: 10px;
+}
+
+.sec {
+  width: 100%;
+  height: 85vh;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  height: 250px;
+  width: 100%;
+  background: #A2CFFE;
+  gap: 50px;
+}
+@media (min-width: 1550px) {
+  .nav2 {
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 90%;
+  }
+}
+@media (max-width: 1440px) {
+  .nav2 {
+    height: 350px;
+  }
+}
+@media (max-width: 968px) {
+  .nav2 {
+    height: 250px;
+  }
+}
+@media (max-width: 768px) {
+  .nav2 {
+    height: 200px;
+  }
+}
+@media (max-width: 560px) {
+  .nav2 {
+    height: 150px;
+  }
+}
+@media (max-width: 400px) {
+  .nav2 {
+    height: 100px;
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  border-radius: 12px;
+  width: 25.88vw;
+  height: 15.82vw;
+  max-width: 550px;
+  max-height: 336px;
+  font-family: jura;
+  letter-spacing: 5px;
+  font-size: 35px;
+  box-shadow: rgba(0, 0, 0, 0.466) 0px 2px 2px 2px;
+}
+@media (min-width: 1550px) {
+  .card {
+    font-size: 75px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    font-size: large;
+  }
+}
+@media (max-width: 550px) {
+  .card {
+    font-size: medium;
+  }
+}
+@media (max-width: 425px) {
+  .card {
+    font-size: small;
+    letter-spacing: 2px;
+    height: 65px;
+    width: 100px;
+  }
+}
+
+.com {
+  background-image: url("https://www.airway.com.br/wp-content/uploads/2017/12/B787_01-960x621.jpg");
+  background-size: cover;
+}
+
+.mili {
+  background-image: url("https://wallpapers.com/images/hd/4k-fighter-plane-x4ec34tdh2evagnv.jpg");
+  background-size: cover;
+}
+
+.tec {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSza_Tu979FIrsf4mAASfZl4i7tyW9XkkvGSg&s");
+  background-size: cover;
+}
+
+.destaque {
+  background-color: #A2CFFE;
+  font-family: "Jura";
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.destaque .titulododestaque {
+  font-family: "Jura";
+  font-size: 50px;
+  text-align: center;
+}
+@media (max-width: 768) {
+  .destaque .titulododestaque {
+    font-size: larger;
+  }
+}
+.destaque .alinha {
+  display: flex;
+}
+.destaque .alinha .imagemdestaque {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 3%;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.destaque .alinha .imagemdestaque img {
+  border-radius: 10px;
+  width: 325px;
+  height: 225px;
+}
+.destaque .alinha .textodestaque {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: flex;
+  flex-direction: column;
+}
+.destaque .alinha .textodestaque .text {
+  margin: 20px;
+  font-size: large;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.destaque .alinha .textodestaque a {
+  font-size: large;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-style: none;
+  text-decoration: none;
+  color: black;
+}
+.destaque .alinha .textodestaque a:hover {
+  transition: 0.5s;
+  color: #5c5c5c;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  line-height: 1.8;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: xx-large;
+}/*# sourceMappingURL=styles.css.map */
